@@ -1,0 +1,189 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --text-color: #EFEAFE;
+  --bg-color: #653EF5;
+  --btncolor: #FF2D94;
+  --heading-color: #F2684B;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+/* utility class start */
+.btn-cv {
+  /* padding: 1rem 1.9rem; */
+  background-color: var(--btncolor);
+  font-size: 1.3rem;
+  color: white;
+  border-radius: 10px;
+}
+.section-padding{
+  padding: 4rem 0;
+}
+.section-heading{
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.heading-color{
+  color: var(--heading-color);
+}
+/* utility class end */
+/* navbar start */
+.navbar {
+  padding: 1.5rem;
+}
+.navbar-brand {
+  font-size: 1.8rem;
+  color: white !important;
+}
+.navbar-bg{
+  background-color: #653EF5 !important;
+}
+.navbar-toggler i {
+  font-size: 2rem;
+  color: white;
+}
+.navbar-nav .nav-item a {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  color: white !important;
+}
+.navbar-nav .nav-item a:hover {
+  color: rgba(250, 235, 215, 0.582) !important;
+}
+/* navbar end */
+/* banner start */
+.banner {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-color) ;
+}
+.banner-content h3 {
+  font-size: 2.2rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+.banner-content h2 {
+  font-size: 3rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+.banner-content p {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
+}
+.banner-img img {
+  padding-top: 7rem;
+}
+/* banner end */
+/* about section start */
+.about {
+  background-color: #F9F9F9;
+}
+.about .profile-img img {
+  height: 38rem;
+  display: inline-block;
+}
+.about-content h3 {
+  font-size: 1.4rem;
+  letter-spacing: 1.1rem;
+  margin-top: 1rem;
+}
+.about-content h2 {
+  font-size: 1.8rem;
+  margin: 1.3rem 0;
+  letter-spacing: .5rem;
+}
+.about-content p{
+  font-size: .9rem;
+  line-height: 1.7rem;
+}
+.about-content .card {
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+}
+.about-content .personal-info p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--heading-color);
+}
+.about-content .social-icons i {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  color: var(--heading-color);
+  cursor: pointer;
+}
+.education {
+  margin-top: 4rem;
+}
+.education .card {
+  border: none;
+}
+.education .card .card-body h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+.education .education-info .institute p {
+  font-size: .9rem;
+}
+.education .education-info .institute h2{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: -10px
+}
+.education .education-info .institute-desc h2 {
+  font-size: 1.2rem;
+}
+.education .education-info .institute-desc p {
+  font-size: .9rem;
+  font-weight: 300;
+}
+/* about section end */
+/* service start */
+.service .card {
+  border:none;
+  border-radius: 15px;
+  border-right: 2px solid red;
+  width: 23rem;
+}
+.service .card .card-body {
+  padding: 2.5rem;
+  background-color: #e5e4e263;
+}
+.service .card .card-body .icon i {
+  font-size: 3rem;
+  padding: 2rem 0;
+  color: #26BCE4;
+}
+.service .card .card-body h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1.2rem 0;
+}
+.service .card .card-body p {
+  font-size: .9rem;
+  font-weight: 300;
+}
+/* service end */
+/* skills start */
+.skills {
+  background-color: #b2beb579;
+}
+.skills .skill h2 {
+  font-size: 1.3rem;
+  color: var(--heading-color);
+  margin-bottom: 0.9rem;
+}
+/* skills end */
