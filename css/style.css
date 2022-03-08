@@ -187,3 +187,48 @@ body {
   margin-bottom: 0.9rem;
 }
 /* skills end */
+/* project start */
+.project-content .card {
+  width: 25rem;
+  border: none;
+}
+.project-content .card .card-body .project-img {
+  width: 100%;
+  height: 350px;
+  background: url("../img/project1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  transition: all 1s ease-in-out;
+}
+.project-content .card .card-body .project-img:hover {
+  background-position: bottom;
+}
+.project-content .card .card-body .card-title{
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-top: 1.4rem;
+  padding-bottom: 1.3rem;
+}
+.project-content .card .card-body .card-text {
+  font-size: .9rem;
+  padding-bottom: 1rem;
+}
+.project-content .card .card-body a {
+  font-size: 1rem;
+}
+/* project end */
+/* certificate start */
+span.carousel-control-prev-icon {
+ background-color: var(--heading-color);
+  border-radius: 50%;
+}
+span.carousel-control-next-icon{
+  background-color: var(--heading-color);
+  border-radius: 50%;
+}
+/* certificate end */
+
+/* contact start */
+
+/* contact end */
