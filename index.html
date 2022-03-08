@@ -37,9 +37,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Project</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Testimonials</a>
-              </li>
+              
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
               </li>
@@ -63,7 +61,7 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div class="banner-img px-4">
+              <div class="banner-img px-4 d-none d-md-block">
                 <img src="./img/banner.png" class=" img-fluid" alt="banner img">
               </div>
             </div>
@@ -468,19 +466,38 @@
           <h2 class=" text-center section-heading">Contact <span class="heading-color">Me</span></h2>
           <div class="row">
             <div class="col-md-6">
-              <form>
-                
+              <form class="w-75">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Your Name</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email Address">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+                <button class="btn btn-cv">Send Message</button>
               </form>
             </div>
-            <div class="col-md-6"></div>
+            <div class="col-md-6">
+              <div class="contact-img px-5">
+                <img src="./img/contact.png" class="img-fluid" alt="contact-img">
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <!-- contact end -->
+     
     </main>
     
-    <footer class="footer">
-
+    <footer class="footer-section">
+      <div class="container-fluid">
+        <p class="text-center">Copyright &copy; 2022 All Rights Reserved by Alif Hasan Shah</p>
+      </div>
     </footer>
 
 

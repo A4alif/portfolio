@@ -66,6 +66,9 @@ body {
   height: 100vh;
   background-color: var(--bg-color) ;
 }
+.banner .banner-content {
+  margin-top: 20rem !important;
+}
 .banner-content h3 {
   font-size: 2.2rem;
   color: var(--text-color);
@@ -83,6 +86,7 @@ body {
 }
 .banner-img img {
   padding-top: 7rem;
+  margin-top: 10rem;
 }
 /* banner end */
 /* about section start */
@@ -230,5 +234,18 @@ span.carousel-control-next-icon{
 /* certificate end */
 
 /* contact start */
+.contact form button {
+  font-size: 1.2rem;
+}
 
 /* contact end */
+/* footer start */
+.footer-section {
+  background-color: var(--bg-color);
+  padding: 2rem 0;
+}
+.footer-section p {
+  font-size: 1.3rem;
+  color: var(--text-color);
+}
+/* footer end */
