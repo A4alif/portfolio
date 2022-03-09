@@ -161,10 +161,13 @@ body {
   border-radius: 15px;
   border-right: 2px solid red;
   width: 23rem;
+  height: 400px;
 }
 .service .card .card-body {
   padding: 2.5rem;
   background-color: #e5e4e263;
+  width: 100%;
+  height: 100%;
 }
 .service .card .card-body .icon i {
   font-size: 3rem;
@@ -194,16 +197,57 @@ body {
 /* project start */
 .project-content .card {
   width: 25rem;
+  height: 560px;
   border: none;
+}
+.project-content .card .card-body{
+  width: 100%;
+  height: 100%;
 }
 .project-content .card .card-body .project-img {
   width: 100%;
-  height: 350px;
+  height: 320px;
+  /* background: url("../img/project1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top; */
+  transition: all 1s ease-in-out;
+}
+.project-content .card .card-body .project-img.project1{
   background: url("../img/project1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  transition: all 1s ease-in-out;
+}
+.project-content .card .card-body .project-img.project2{
+  background: url("../img/project2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.project-content .card .card-body .project-img.project3{
+  background: url("../img/project3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.project-content .card .card-body .project-img.project4{
+  background: url("../img/project4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.project-content .card .card-body .project-img.project5{
+  background: url("../img/project5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.project-content .card .card-body .project-img.project6{
+  background: url("../img/project6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 .project-content .card .card-body .project-img:hover {
   background-position: bottom;
@@ -249,3 +293,67 @@ span.carousel-control-next-icon{
   color: var(--text-color);
 }
 /* footer end */
+
+/* Media Query start */
+@media (max-width: 1399.98px) { 
+  .service .card {
+    width: 22rem;
+  }
+  .project-content .card {
+    width: 22rem;
+  }
+ }
+@media (max-width: 1199.98px) { 
+  .service .card {
+    width: 18rem;
+  }
+  .project-content .card {
+    width: 18rem;
+  }
+ }
+ @media (max-width: 992px) { 
+  .banner .banner-content {
+    margin-top: 15rem !important;
+  }
+  .service .card {
+    width: 14rem;
+    height: 420px;
+  }
+  .project-content .card {
+    width: 14rem;
+  }
+  .project-content .card .card-body .project-img{
+    height: 250px;
+  }
+  .contact form button {
+    font-size: 1rem;
+  }
+  .footer-section p{
+    font-size: 1rem;
+  }
+ }
+ @media (max-width: 767.98px) { 
+  .service .card {
+    width: 22rem;
+    height: 420px;
+   margin-left: 4rem;
+  }
+  .project-content .card {
+    width: 22rem;
+    margin-left: 4rem;
+  }
+  .project-content .card .card-body .project-img{
+    height: 320px;
+  }
+  }
+  @media (max-width: 575.98px) { 
+    .service .card {
+      margin-left: 1.5rem;
+    }
+    .project-content .card {
+      margin-left: 1.5rem;
+    }
+    .footer-section p{
+      font-size: .8rem;
+    }
+   }
