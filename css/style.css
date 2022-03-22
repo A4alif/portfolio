@@ -44,6 +44,12 @@ body {
   font-size: 1.8rem;
   color: white !important;
 }
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
 .navbar-bg{
   background-color: #653EF5 !important;
 }
